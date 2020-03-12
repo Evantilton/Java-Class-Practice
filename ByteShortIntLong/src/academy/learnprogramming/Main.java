@@ -19,6 +19,21 @@ public class Main {
 
         byte myMinByteValue = Byte.MIN_VALUE;
         byte myMaxByteValue = Byte.MAX_VALUE;
-        System.out.println(myMinByteValue);
-        System.out.println(myMaxByteValue);
+        System.out.println("byte min val = " + myMinByteValue);
+        System.out.println("byte max val = " + myMaxByteValue);
+
+
+        short myMinShortValue = Short.MIN_VALUE;
+        short myMaxShortValue = Short.MAX_VALUE;
+        System.out.println("short min val = " + myMinShortValue);
+        System.out.println("short max val = " + myMaxShortValue);
+
+        long myLongValue = 100L;
+        long myMinLongValue = Long.MIN_VALUE;
+        long myMaxLongValue = Long.MAX_VALUE;
+        System.out.println("long min val = " + myMinLongValue);
+        System.out.println("long max val = " + myMaxLongValue);
+        long bigLongLiteralNumber = 2_147_483_647_234L;
+        System.out.println(bigLongLiteralNumber);
+
     }}
